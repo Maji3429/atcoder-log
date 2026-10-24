@@ -51,4 +51,4 @@ ABC001〜019 など問題 ID が数字のコンテストには対応していま
 
 ## LICENSE
 
-Creative Commons Zero v1.0 Universal [LICENSE]
+[Creative Commons Zero v1.0 Universal ](LICENSE)
