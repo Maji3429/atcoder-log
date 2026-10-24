@@ -1,0 +1,6 @@
+#!/bin/sh
+# ステージされた .rs に問題URLを付けて、付けた分を再ステージする
+files=$(git diff --cached --name-only --diff-filter=AM -- '*.rs')
+[ -z "$files" ] && exit 0
+python3 scripts/add_problem_url.py $files || exit 1
+git add -- $files
